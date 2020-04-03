@@ -1,3 +1,3 @@
-# my personal blog
+# 0e0w blog
 
 

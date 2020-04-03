@@ -7,7 +7,7 @@
 
 # Site settings
 title: 0e0w
-brief-intro: Front-end Dev Engineer
+#brief-intro: Front-end Dev Engineer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://0e0w.github.io" # the base hostname & protocol for your site
 
@@ -23,7 +23,7 @@ email: 0e0wteam@gmail.com
 #linkedIn_username: gaohaoyang
 #dribbble_username:
 
-description_footer: 本站记录我前端之旅的沿途风景！
+description_footer: 本站记录我HACK之旅的沿途风景！
 
 # comments
 # two ways to comment, only choose one, and use your own short name
@@ -35,7 +35,7 @@ disqus_shortname: 0e0w
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
 # hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
 # xxxxx字符串
-baidu_tongji_id: cf8506e0ef223e57ff6239944e5d46a4
+#baidu_tongji_id: cf8506e0ef223e57ff6239944e5d46a4
 google_analytics_id: UA-72449510-4 # google 分析追踪id
 
 # Build settings
