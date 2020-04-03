@@ -11,7 +11,6 @@ type: page
 
 ## 关于我
 
-<iframe src="https://avatars0.githubusercontent.com/u/15167407?s=460&v=4" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
 * 90后
 
 ## 联系我
