@@ -15,8 +15,7 @@ type: page
 
 ## 联系我
 
-* GitHub：[0e0w](https://github.com/0e0w)
-* email：0e0wteam@gmail.com
+* Email：0e0wteam@gmail.com
 
 
 ## 友情链接
