@@ -21,6 +21,5 @@ type: page
 
 ## 友情链接
 [0e0w](http://www.0e0w.com) \|  [HACK]()
-## Comments
 
 {% include comments.html %}
