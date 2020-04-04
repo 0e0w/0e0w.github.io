@@ -8,12 +8,16 @@ type: page
 * content
 {:toc}
 ## 程序开发
+
 ### PHP
-* [python](https://www.python.org)
-* block-comment
-* color-picker
-* docblockr
-### PHP
+
+- block-comment
+- block-comment
+- color-picker
+- docblockr
+
+### Python
+
 * block-comment
 * block-comment
 * color-picker
