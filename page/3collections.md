@@ -8,7 +8,7 @@ type: page
 * content
 {:toc}
 ## 程序开发
-### Python
+### PHP
 * [python](https://www.python.org)
 * block-comment
 * color-picker
