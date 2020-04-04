@@ -19,7 +19,7 @@ type: page
 * docblockr
 ## 程序开发
 ### Python
-* [box-shadow generator](http://www.cssmatic.com/box-shadow)
+* [python](https://www.python.org)
 ### PHP
 * block-comment
 ### Java
