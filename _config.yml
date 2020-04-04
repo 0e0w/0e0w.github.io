@@ -9,7 +9,7 @@
 title: 0e0w
 #brief-intro: Front-end Dev Engineer
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://0e0w.github.io" # the base hostname & protocol for your site
+url: "http://www.0e0w.com" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
