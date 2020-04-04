@@ -5,27 +5,24 @@ permalink: /collection/
 icon: bookmark
 type: page
 ---
-
 * content
 {:toc}
-
-## 工具
-
-### 免杀
-* block-comment
-* color-picker
-* docblockr
-### 免杀
-* block-comment
-* color-picker
-* docblockr
 ## 程序开发
 ### Python
 * [python](https://www.python.org)
+* block-comment
+* color-picker
+* docblockr
 ### PHP
 * block-comment
+* block-comment
+* color-picker
+* docblockr
 ### Java
 * block-comment
+* block-comment
+* color-picker
+* docblockr
 ## Other blogs
 * [进击的马斯特 http://pinkyjie.com/](http://pinkyjie.com/)	
 * [Jerry Qu](https://imququ.com/)
