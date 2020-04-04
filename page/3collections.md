@@ -10,9 +10,11 @@ type: page
 {:toc}
 
 ## 工具
-### 提权
-* [box-shadow generator](http://www.cssmatic.com/box-shadow)
-* auto-beautify
+
+### 免杀
+* block-comment
+* color-picker
+* docblockr
 ### 免杀
 * block-comment
 * color-picker
