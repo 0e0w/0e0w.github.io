@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Quotations
-permalink: /Quotations/
+permalink: /Quotation/
 icon: heart
 type: page
 ---
