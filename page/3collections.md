@@ -9,8 +9,6 @@ type: page
 {:toc}
 ## 0x01 程序开发
 
-**程序开发**
-
 - Java
   - [Java菜鸟教程](https://www.runoob.com/java/java-tutorial.html?tdsourcetag=s_pcqq_aiomsg)
 - PHP
@@ -25,7 +23,9 @@ type: page
   - [PowerShell在线教程](https://www.pstips.net/powershell-online-tutorials)
 
 - Bash
-  - http://wangdoc.com/bash/
+  - [Bash教程-ruanyifeng](http://wangdoc.com/bash/)
 
 - Golang
   - [go语言中文网](https://studygolang.com/)
+
+## 0x02 渗透测试
