@@ -28,10 +28,10 @@ type: page
 
 - http://wangdoc.com/bash/
 
-## 0x02 渗透测试
+**程序开发**
 
-### 免杀框架
-- Veil
-## Other Blogs
+- Java
+  - [Java菜鸟教程](https://www.runoob.com/java/java-tutorial.html?tdsourcetag=s_pcqq_aiomsg)
 
-* www.0e0w.com
+- Python
+  - [Python菜鸟教程](https://www.runoob.com/python/python-tutorial.html)
