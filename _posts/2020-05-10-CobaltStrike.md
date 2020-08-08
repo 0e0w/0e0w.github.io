@@ -179,10 +179,6 @@ author: 0e0w
 
 Cobalt Strike作为一款优秀的后渗透测试框架，可扩展性也极强。用户可以通过编写Cobalt Strike Script的方式新增功能。再此列举了一些比较优秀的Script。
 
-- [https://github.com/k8gege/Ladon](https://github.com/k8gege/Ladon)
-- https://github.com/QAX-A-Team/EventLogMaster
-- [https://github.com/rsmudge/ElevateKit](https://wbglil.gitbooks.io/cobalt-strike/content/cobalt-strikejiao-ben-shi-yong.html#)
-- [https://github.com/vysec/CVE-2018-4878](https://wbglil.gitbooks.io/cobalt-strike/content/cobalt-strikejiao-ben-shi-yong.html#)
 - https://github.com/harleyQu1nn/AggressorScripts
 - https://github.com/bluscreenofjeff/AggressorScripts
 - https://github.com/ramen0x3f/AggressorScripts
