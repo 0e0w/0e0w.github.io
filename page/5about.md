@@ -20,7 +20,7 @@ type: page
 
 - 20200711-梦想被扼杀的第一个征候就是抱怨没有时间。
 - 20200710-从来没有真正的绝境，只有心灵的迷途。
-- 20200820-[你的时间放在哪里，你的成就就在哪里](https://mp.weixin.qq.com/s/ofuD9Iw7crDzWLM1Kglztw。)
+- 20200820-[你的时间放在哪里，你的成就就在哪里。](https://mp.weixin.qq.com/s/ofuD9Iw7crDzWLM1Kglztw)
 
 ## 友情链接
 
