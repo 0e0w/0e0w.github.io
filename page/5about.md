@@ -14,7 +14,7 @@ type: page
 
 ## 联系我
 
-* Email：0e0wteam@gmail.com
+* 0e0wteam@gmail.com
 
 ## 经典语录
 
