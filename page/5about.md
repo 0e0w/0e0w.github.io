@@ -22,6 +22,7 @@ type: page
 - 20200710-从来没有真正的绝境，只有心灵的迷途。
 - 20200801-只有无限的接近死亡，才能感悟生命的真谛。
 - 20200820-[你的时间放在哪里，你的成就就在哪里。](https://mp.weixin.qq.com/s/ofuD9Iw7crDzWLM1Kglztw)
+- 20200822-[你的努力，在别人的天赋面前不值一提。](https://mp.weixin.qq.com/s/6-CxiALa2fvi-VCIXrBlAw)
 
 ## 友情链接
 
