@@ -24,6 +24,7 @@ type: page
 - 20200820-[你的时间放在哪里，你的成就就在哪里。](https://mp.weixin.qq.com/s/ofuD9Iw7crDzWLM1Kglztw)
 - 20200822-[你的努力，在别人的天赋面前不值一提。](https://mp.weixin.qq.com/s/6-CxiALa2fvi-VCIXrBlAw)
 - 20201013-凡是过往，皆为序章。@莎士比亚
+- 20201017-迷茫的原因多半是读书太少想的太多。[@ox01024](https://github.com/ox01024)
 
 ## 友情链接
 
