@@ -18,6 +18,7 @@ type: page
 
 ## 经典语录
 
+- 20201129-面向感觉挖洞，背向对象编程！[CBiu](https://github.com/CBiu)
 - 20201122-事实是什么不重要，重要的是她怎么想。
 - 20201103-学习的本质是模仿，创造的精髓在洞察。[Mr-xn](https://github.com/Mr-xn)
 - 20201021-梦想被扼杀的第一个征候就是抱怨没有时间。[@语冰](https://github.com/No-Github)
