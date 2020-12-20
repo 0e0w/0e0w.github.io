@@ -18,9 +18,10 @@ type: page
 
 ## 经典语录
 
-- 20201129-面向感觉挖洞，背向对象编程！[CBiu](https://github.com/CBiu)
+- 20201220-代码就在眼前，我却不识漏洞。[@coffeehb](https://github.com/coffeehb)
+- 20201129-面向感觉挖洞，背向对象编程！[@CBiu](https://github.com/CBiu)
 - 20201122-事实是什么不重要，重要的是她怎么想。
-- 20201103-学习的本质是模仿，创造的精髓在洞察。[Mr-xn](https://github.com/Mr-xn)
+- 20201103-学习的本质是模仿，创造的精髓在洞察。[@Mr-xn](https://github.com/Mr-xn)
 - 20201021-梦想被扼杀的第一个征候就是抱怨没有时间。[@语冰](https://github.com/No-Github)
 - 20201017-迷茫的原因多半是读书太少想的太多。[@ox01024](https://github.com/ox01024)
 - 20201013-凡是过往，皆为序章。[@莎士比亚](https://zh.wikipedia.org/zh/%E5%A8%81%E5%BB%89%C2%B7%E8%8E%8E%E5%A3%AB%E6%AF%94%E4%BA%9A)
