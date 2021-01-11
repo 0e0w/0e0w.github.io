@@ -19,6 +19,7 @@ type: page
 
 ## 经典语录
 
+- 20200111-左脑编程，右脑写诗。[@YYJeffrey](https://github.com/YYJeffrey)
 - 20210103-你首先要爱一个人，然后才能管一个人。
 - 20201231-我在想炒股到底是什么心态？十五元的国金没人要，十六元的国金大家抢。
 - 20201220-代码就在眼前，我却不识漏洞。[@coffeehb](https://github.com/coffeehb)
