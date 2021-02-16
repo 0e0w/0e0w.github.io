@@ -19,6 +19,8 @@ type: page
 
 ## 经典语录
 
+- 20200216-为天地立心，为生民立命，为往圣继绝学，为万世开太平！@张载
+- 20210216-人生三大困境：欲求、情绪、习性。
 - 20210121-枷锁是否沉重，全凭我们自己决定！[@xidaner](https://github.com/xidaner)
 - 20200115-请相信你的指尖拥有改变世界的力量。[@榆木](https://github.com/yumusb)
 - 20200111-左脑编程，右脑写诗。[@YYJeffrey](https://github.com/YYJeffrey)
