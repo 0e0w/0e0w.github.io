@@ -19,6 +19,7 @@ type: page
 
 ## 经典语录
 
+- 20210906-一入逆向深似海,从此孤单一个人。[@猪会被](https://github.com/zhuhuibeishadiao)
 - 20210904-成为一名特长型程序员，而不是全能型程序员。[@阮一峰](http://www.ruanyifeng.com/blog/2021/09/weekly-issue-174.html)
 - 20210426-盛者衰之始，福者祸之基，虽可幸，亦可惧也。@王华
 - 20210409-生命的价值就是存在，而存在的意义就是实现生命的价值！[@feichenxue](https://github.com/feichenxue)
