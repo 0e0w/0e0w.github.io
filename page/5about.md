@@ -19,6 +19,7 @@ type: page
 
 ## 经典语录
 
+- 20211110-这也不会，那也不会。 那也不懂，这也不懂。[@zhengjim](https://github.com/zhengjim)
 - 20211011-少就是多，慢就是快。[@hanlu](https://github.com/zhuifengshaonianhanlu)
 - 20210906-一入逆向深似海,从此孤单一个人。[@猪会被](https://github.com/zhuhuibeishadiao)
 - 20210904-成为一名特长型程序员，而不是全能型程序员。[@阮一峰](http://www.ruanyifeng.com/blog/2021/09/weekly-issue-174.html)
