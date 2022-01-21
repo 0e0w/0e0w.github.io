@@ -19,6 +19,7 @@ type: page
 
 ## 经典语录
 
+- 20220121-人生的无限可能，往往藏在每一次清零之后。@Sam Chen
 - 20211110-这也不会，那也不会。 那也不懂，这也不懂。[@zhengjim](https://github.com/zhengjim)
 - 20211011-少就是多，慢就是快。[@hanlu](https://github.com/zhuifengshaonianhanlu)
 - 20210906-一入逆向深似海,从此孤单一个人。[@猪会被](https://github.com/zhuhuibeishadiao)
