@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Me
-permalink: /about/
+permalink: /about
 icon: heart
 type: page
 ---
@@ -10,12 +10,14 @@ type: page
 {:toc}
 ## 关于我
 
-* 十年前凭兴趣入行安全领域，什么都搞过，什么都不懂。努力学习中...
-* 好汉，再等十年。没有十年非好汉。
+* 踏入安全行业多年，目前仍在Web领域学习。自知不才，唯有坚持。
+* Goqi团队成员。https://github.com/Goqi
+* ASTTeam团队成员。https://github.com/ASTTeam
 
 ## 联系我
 
-* 0e0wteam@gmail.com
+* https://github.com/0e0w
+* 0e0wTeam@gmail.com
 
 ## 经典语录
 
