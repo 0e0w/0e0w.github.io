@@ -21,6 +21,7 @@ type: page
 
 ## 经典语录
 
+- 20220211-[悲观者正确，乐观者成功。](http://www.ruanyifeng.com/blog/2022/02/weekly-issue-194.html)
 - 20220121-人生的无限可能，往往藏在每一次清零之后。@Sam Chen
 - 20211110-这也不会，那也不会。 那也不懂，这也不懂。[@zhengjim](https://github.com/zhengjim)
 - 20211011-少就是多，慢就是快。[@hanlu](https://github.com/zhuifengshaonianhanlu)
