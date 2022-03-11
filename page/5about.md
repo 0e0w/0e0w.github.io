@@ -21,6 +21,7 @@ type: page
 
 ## 经典语录
 
+- 20220311-苟有恒，何必三更眠五更起。[@一叶飘零](https://skysec.top/)
 - 20220211-[悲观者正确，乐观者成功。](http://www.ruanyifeng.com/blog/2022/02/weekly-issue-194.html)
 - 20220121-人生的无限可能，往往藏在每一次清零之后。@Sam Chen
 - 20211110-这也不会，那也不会。 那也不懂，这也不懂。[@zhengjim](https://github.com/zhengjim)
