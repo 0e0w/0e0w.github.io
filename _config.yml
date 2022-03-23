@@ -12,7 +12,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.0e0w.com" # the base hostname & protocol for your site
 
 #permalink: /:year/:month/:day/:title/
-permalink: /title
+permalink: /:title
 
 # other links
 #twitter_username: 0e0w
