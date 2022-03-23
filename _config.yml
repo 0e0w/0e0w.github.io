@@ -11,7 +11,8 @@ title: 0e0w
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.0e0w.com" # the base hostname & protocol for your site
 
-permalink: /:year/:month/:day/:title/
+#permalink: /:year/:month/:day/:title/
+permalink: /title
 
 # other links
 #twitter_username: 0e0w
@@ -23,7 +24,7 @@ email: 0e0wteam@gmail.com
 #linkedIn_username: 0e0w
 #dribbble_username:
 
-description_footer: 记录自己HACK的沿途风景！
+description_footer: 记录自己技术成长的沿途风景！
 
 # comments
 # two ways to comment, only choose one, and use your own short name
