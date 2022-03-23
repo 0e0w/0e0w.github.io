@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Readings
+title: 阅读
 permalink: /readings/
 icon: heart
 type: page

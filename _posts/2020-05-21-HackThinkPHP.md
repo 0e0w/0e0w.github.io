@@ -21,7 +21,7 @@ author: 0e0w
 > - 应用项目：https://github.com/top-think/think/releases
 > - 核心框架：https://github.com/top-think/framework/releases
 
-## 0x00 ThinkPHP基础
+## 00-hinkPHP基础
 ThinkPHP是国内开发的优秀的PHP框架，存在大量基于其的CMS。
 ### 一、安装方式
 **源码直接安装**
@@ -97,7 +97,7 @@ ThinkPHP架构
 - https://blog.csdn.net/qq_28137309/article/details/87352796
 ### 四、MVC架构
 MVC是一个设计模式，它强制性的使应用程序的输入、处理和输出分开。使用MVC应用程序被分成三个核心部件：模型（M）、视图（V）、控制器（C），它们各自处理自己的任务。
-## 0x01 ThinkPHP与代码执行漏洞
+## 01-ThinkPHP与代码执行漏洞
 ### 一、5.0.0-5.0.12
 **影响版本：**5.0.0-5.0.12
 **payload：**
@@ -330,7 +330,7 @@ invokefunction是什么？
 - https://xz.aliyun.com/t/3570
 - https://www.jianshu.com/p/46ceb2c338bc
 
-## 0x02 ThinkPHP与SQL注入漏洞
+## 02-ThinkPHP与SQL注入漏洞
 
 ThinkPHP在历史上爆发出很多的SQL注入漏洞，本部分将详细的对其进行具体分析。
 
@@ -401,7 +401,7 @@ https://github.com/Mochazz/ThinkPHP-Vuln/blob/master/ThinkPHP5/ThinkPHP5漏洞�
 
 https://github.com/Mochazz/ThinkPHP-Vuln
 
-## 0x04 ThinkPHP与反序列化漏洞
+## 03-ThinkPHP与反序列化漏洞
 
 https://github.com/Dido1960/thinkphp
 
@@ -417,19 +417,19 @@ https://github.com/Mochazz/ThinkPHP-Vuln
 
 ### 四、6.0反序列化
 
-## 0x03 ThinkPHP与文件包含漏洞
+## 04-ThinkPHP与文件包含漏洞
 
 ### 一、版本5.0.0<=5.0.18
 
-## 0x05 基于ThinkPHP程序
+## 05-基于ThinkPHP程序
 
 - https://github.com/search?q=thinkphp+3.2.3&type=Repositories
 - https://github.com/search?q=based+on+ThinkPHP&type=Repositories
 - https://github.com/GreenCMS/GreenCMS
 
-## 0x06 POC与EXP整理
+## 06-POC与EXP整理
 
-## 0x99 参考链接
+## 07-参考链接
 
 - https://xz.aliyun.com/t/3868
 - https://github.com/SkyBlueEternal/thinkphp-RCE-POC-Collection
