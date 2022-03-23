@@ -10,8 +10,9 @@
     <script src="assets/jquery-3.5.1.slim.min.js"></script>
     <script src="assets/popper-1.16.1.min.js"></script>
     <script src="assets/bootstrap-4.5.2.min.js"></script>
-    <link rel="stylesheet" href="css/dark-mode.min.css">
-    <link rel="stylesheet" href="css/light-mode.min.css">
+    <link rel="stylesheet" href="css/dark-mode.css">
+    <link rel="stylesheet" href="css/light-mode.css">
+    <link rel="stylesheet" href="css/meme-mode.css">
     <meta name="description" content="Online Reverse Shell generator with Local Storage functionality, URI & Base64 Encoding, MSFVenom Generator, and Raw Mode. Great for CTFs." />
     <meta name="title" content="Online - Reverse Shell Generator">
     <!-- Open Graph / Facebook -->
@@ -29,6 +30,8 @@
     <meta property="twitter:image"
         content="https://user-images.githubusercontent.com/58673953/111243529-9d646f80-85d7-11eb-986c-9842747dc2e7.png">
 
+    <link rel="canonical" href="https://revshells.com" />
+
     <!-- GitHub Ribbon -->
     <a href="https://github.com/0dayCTF/reverse-shell-generator" class="github-corner"
         aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250"
@@ -42,23 +45,25 @@
                 fill="currentColor" class="octo-body"></path>
         </svg></a>
     <style>
-    <link rel="canonical" href="https://revshells.com" />
     </style>
 </head>
 
 <body class="bg-black">
     <div class="container d-flex flex-column vh-100">
-        <div class="custom-control custom-switch float-right">
-            <input id="lightSwitch" type="checkbox" class="custom-control-input">
-            <label for="lightSwitch" class="custom-control-label small pr-2 pb-1" style="padding-top:2px"
-                data-toggle="tooltip" title="Toggle Light Mode">Light Mode 🌓
-            </label>
+        <div class="custom-control float-right" style="margin-left: -25px;">
+            <label for="theme-selector" class="card-title col-auto col-form-label float-left"
+                style="font-size:1rem">Theme</label>
+
+            <select class="custom-select" id="theme-selector">
+                <option class="os-item" value="dark">Dark</option>
+                <option class="os-item" value="light">Light</option>
+                <option class="os-item" value="meme">Meme</option>
+            </select>
         </div>
 
         <!-- Header -->
-        <div class="mb-auto row justify-content-center mt-3 mb-5">
+        <div class="mb-auto row justify-content-center mb-5">
             <h2 class="rainbow">Reverse Shell Generator</h2>
-
         </div>
 
         <div class="row">
@@ -143,7 +148,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-auto position-relative" style="min-width: 15vw">
                                     <pre class="prompt-sign">🚀</pre>
-                                    <pre id="listener-command" class="bg-dark border text-wrap text-break p-4 pl-5 mb-2"
+                                    <pre id="listener-command" class="bg-dark border text-wrap text-break p-4 pl-5 mb-2" spellcheck="false"
                                         style="outline: none; font-size:1em;" contenteditable="true"></pre>
                                 </div>
                             </div>
@@ -205,6 +210,7 @@
                                 style="padding-top:2px" data-toggle="tooltip" title="Display all advanced settings">
                                 Show Advanced
                             </label>
+                            <img src="assets/floppy-disk-solid.svg" class="download-svg" data-toggle="tooltip" title="Download Payload">
                         </div>
                         <!-- /Show all advanced switch -->
 
@@ -242,7 +248,7 @@
                                         <div class="col position-relative">
                                             <pre class="prompt-sign">🚀</pre>
                                             <pre id="reverse-shell-command"
-                                                class="bg-dark border pre-wrap text-break p-4 pl-5"
+                                                class="bg-dark border pre-wrap text-break p-4 pl-5" spellcheck="false"
                                                 style="outline: none; font-size:1em;" contenteditable="true"></pre>
                                         </div>
                                     </div>
@@ -303,6 +309,7 @@
                                             <label for="auto-copy-switch" class="custom-control-label small pr-2 pb-1"
                                                 style="padding-top: 2px">Auto-copy</label>
                                         </div> -->
+
                                         <!-- Raw button -->
                                         <button type="button" class="raw-listener btn btn-primary float-right mr-3"
                                                 data-toggle="tooltip" title="View raw">
@@ -332,6 +339,7 @@
             <div class="tab-pane" id="bind" role="tabpanel" aria-labelledby="bind-tab">
                 <div class="card shadow mb-5">
                     <div class="card-body">
+                        <img src="assets/floppy-disk-solid.svg" class="download-svg float-right" data-toggle="tooltip" title="Download Shell Code">
                         <div class="card-text mt-4">
                             <div class="row">
                                 <!-- Left column: Bind selection -->
@@ -346,7 +354,7 @@
                                     <div class="row flex-grow-1">
                                         <div class="col position-relative">
                                             <pre class="prompt-sign">🚀</pre>
-                                            <pre id="bind-shell-command" class="bg-dark border pre-wrap text-break p-4 pl-5"
+                                            <pre id="bind-shell-command" class="bg-dark border pre-wrap text-break p-4 pl-5" spellcheck="false"
                                                 style="outline: none; font-size:1em;" contenteditable="true"></pre>
                                         </div>
                                     </div>
@@ -384,6 +392,7 @@
             <div class="tab-pane" id="msfvenom" role="tabpanel" aria-labelledby="msfvenom-tab">
                 <div class="card shadow mb-5">
                     <div class="card-body">
+                        <img src="assets/floppy-disk-solid.svg" class="download-svg float-right" data-toggle="tooltip" title="Download Shell Code">
                         <div class="card-text mt-4">
                             <div class="row">
                                     <!-- Left column: MSFVenom selection -->
@@ -402,7 +411,7 @@
                                             <div class="col position-relative">
                                                 <pre class="prompt-sign">🚀</pre>
                                                 <pre id="msfvenom-command"
-                                                    class="bg-dark border pre-wrap text-break p-4 pl-5"
+                                                    class="bg-dark border pre-wrap text-break p-4 pl-5" spellcheck="false"
                                                     style="outline: none; font-size:1em;" contenteditable="true"></pre>
                                             </div>
                                         </div>
@@ -447,7 +456,7 @@
     <script src="js/raw-link.js"></script>
 
     <!-- Light switch -->
-    <script src="js/light-mode-switch.min.js"></script>
+    <script src="js/light-mode-switch.js"></script>
 
     <!-- Main js -->
     <script src="js/script.js"></script>

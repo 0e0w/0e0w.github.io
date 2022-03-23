@@ -115,6 +115,25 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "robiot",
+      "name": "Robiot",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68228472?v=4",
+      "profile": "https://robiot.github.io/",
+      "contributions": [
+        "content",
+        "maintenance"
+      ]
+    },
+    {
+      "login": "Hydragyrum",
+      "name": "Adam Bertrand",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4928181?v=4",
+      "profile": "https://github.com/Hydragyrum",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
