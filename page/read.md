@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 阅读
-permalink: /readings
+permalink: /read
 icon: heart
 type: page
 ---

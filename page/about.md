@@ -11,8 +11,7 @@ type: page
 ## 关于我
 
 * 踏入安全行业多年，目前仍在Web领域学习。自知不才，唯有坚持。
-* Goqi团队成员：[https://github.com/Goqi](https://github.com/Goqi)
-* ASTTeam团队成员。[https://github.com/ASTTeam](https://github.com/ASTTeam)
+* ASTTeam团队成员：[https://github.com/ASTTeam](https://github.com/ASTTeam)
 
 ## 联系我
 
@@ -52,7 +51,7 @@ type: page
 
 ## 友情链接
 
-[0e0w Blog](http://www.0e0w.com) \| 
+[0e0w Blog](https://0e0w.com) \| 
 
 
 
