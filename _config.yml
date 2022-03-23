@@ -6,10 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: 0e0w
+title: 0 error(s),0 warning(s).
 #brief-intro: Front-end Dev Engineer
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.0e0w.com" # the base hostname & protocol for your site
+url: "https://0e0w.com" # the base hostname & protocol for your site
 
 #permalink: /:year/:month/:day/:title/
 permalink: /:title
@@ -17,7 +17,7 @@ permalink: /:title
 # other links
 #twitter_username: 0e0w
 #facebook_username: 0e0w
-#github_username:  0e0w
+github_username:  0e0w
 email: 0e0wteam@gmail.com
 #weibo_username: 0e0w
 #zhihu_username: 0e0w
@@ -27,8 +27,7 @@ email: 0e0wteam@gmail.com
 description_footer: 记录自己技术成长的沿途风景！
 
 # comments
-# two ways to comment, only choose one, and use your own short name
-# 两种评论插件，选一个就好了，使用自己的 short_name
+# 两种评论插件，选择其中一种即可，使用自己的 short_name
 # duoshuo_shortname: hygblog
 disqus_shortname: 0e0w
 
