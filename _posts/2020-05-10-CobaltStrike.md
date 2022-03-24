@@ -13,7 +13,7 @@ author: 0e0w
 
 > 关于Cobalt Strike是什么？详见 [cobaltstrike](https://www.cobaltstrike.com/)官网。
 
-## 0x01 基础用法
+## 01-基础用法
 
 - 基础操作
 
@@ -59,7 +59,7 @@ author: 0e0w
 
   - shell 可以执行cmd命令
 
-## 0x02 免杀基础
+## 02-免杀基础
 
 生成一个免杀的payload在后渗透测试过程中尤为重要。由于免杀框架层出不穷现在的免杀也相比过去容易了很多。
 
@@ -87,9 +87,8 @@ author: 0e0w
   - [https://wtfsec.org/posts/%E5%85%8D%E6%9D%80shellcode%E5%B9%B6%E7%BB%95%E8%BF%87%E6%9D%80%E6%AF%92%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%90%AF%E5%8A%A8/](https://wtfsec.org/posts/免杀shellcode并绕过杀毒添加自启动/)
   - [https://wtfsec.org/posts/%e5%85%8d%e6%9d%80-msf-windows-payload-%e7%9a%84%e6%96%b9%e6%b3%95%e4%b8%8e%e5%ae%9e%e8%b7%b5/](https://wtfsec.org/posts/免杀-msf-windows-payload-的方法与实践/)
   - [https://3gstudent.github.io/3gstudent.github.io/%E9%80%9A%E8%BF%87.NET%E5%AE%9E%E7%8E%B0%E5%86%85%E5%AD%98%E5%8A%A0%E8%BD%BDPE%E6%96%87%E4%BB%B6/](https://3gstudent.github.io/3gstudent.github.io/通过.NET实现内存加载PE文件/)
-  - 
 
-## 0x03 上线思考
+## 03-上线思考
 
 如何上线？上线的分类有哪些？执行一条命令？运行一个可安装程序？
 
@@ -122,7 +121,7 @@ author: 0e0w
   - ./agscript ip 50050 teste passwd0e0w /root/cobaltstrike4.0-cracked/http_ftqq.cna
   - 邮箱提醒：
 
-## 0x04 权限维持
+## 04-权限维持
 
 获取到一个Session之后，可能会由于网络不稳定，机器重启等操作丢失Session。我们获取一个Session之后，首先要思考的就是如何使Session永久维持。除了思考永久停留的问题之外，还需要及时的将Session备份到其他的CS服务器上面。本文列举了一些Session永久维持的方法，抛砖引玉。
 
@@ -149,7 +148,7 @@ author: 0e0w
 
   获取shell之后可以将shell转发到其他的CS上，或者是转发到MSF上面，方便后续的测试。
 
-## 0x05 内网渗透
+## 05-内网渗透
 
 内网渗透中，使用一些神洞进行。这些渗透往往是内网之中的大杀器。其中包括下面的这些神洞。除了这些神洞之外，在内网中总是会存在大量的弱口令，内网中弱口令扫描也尤为重要。同样，在内网中可能会存在大量服务器使用相同复杂密码的情况，因此密码嗅探也是比较有效的操作。
 
@@ -168,14 +167,14 @@ author: 0e0w
 
 - 密码抓取
 
-## 0x06 流量转发
+## 06-流量转发
 
 获取到一些服务器之后，为了测试的必要性可能需要把流量转发出来。当然，这可能是不必要的。进入内网横向渗透测试时
 
 - pivoting
   - https://blog.csdn.net/qq_26091745/article/details/104045090
 
-## 0x07 拓展脚本
+## 07-拓展脚本
 
 Cobalt Strike作为一款优秀的后渗透测试框架，可扩展性也极强。用户可以通过编写Cobalt Strike Script的方式新增功能。再此列举了一些比较优秀的Script。
 
@@ -217,11 +216,11 @@ Cobalt Strike作为一款优秀的后渗透测试框架，可扩展性也极强�
 - https://github.com/SpiderLabs/SharpCompile
 - https://github.com/realoriginal/reflectivepotato
 
-## 0x08 逆向重构
+## 08-逆向重构
 
 某些需求下，需要逆向代码进行重构。可以对CS进行反编译，修改里面的功能之后进行重新打包成功jar文件。
 
-## 0x09 参考链接
+## 09-参考链接
 
 - https://github.com/TideSec/BypassAntiVirus
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "ThinkPHP漏洞分析与利用"
-categories: 代码审计
+categories: 漏洞分析
 tags: PHP代码审计 ThinkPHP
 author: 0e0w
 ---
@@ -21,9 +21,9 @@ author: 0e0w
 > - 应用项目：https://github.com/top-think/think/releases
 > - 核心框架：https://github.com/top-think/framework/releases
 
-## 00-hinkPHP基础
+## 00-ThinkPHP基础
 ThinkPHP是国内开发的优秀的PHP框架，存在大量基于其的CMS。
-### 一、安装方式
+### 安装方式
 **源码直接安装**
 
 - ThinkPHP3和ThinkPHP5下载核心包之后，把解压后的目录拷贝到WEB服务器，访问public目录即可。
@@ -40,9 +40,9 @@ ThinkPHP是国内开发的优秀的PHP框架，存在大量基于其的CMS。
 - https://github.com/vulhub/vulhub/tree/master/thinkphp
 - docker pull medicean/vulapps:t_thinkphp_1
 - docker run -d -p 88:80 medicean/vulapps:t_thinkphp_1
-### 二、过滤器
+### 过滤器
 在ThinkPHP有着很好的过滤器，基本上90%的情况是不存在XSS/CSRF等脚本漏洞的。
-### 三、目录结构
+### 目录结构
 ThinkPHP5.0目录结构
 > ```
 > project  应用部署目录
@@ -95,10 +95,10 @@ ThinkPHP5.0目录结构
 
 ThinkPHP架构
 - https://blog.csdn.net/qq_28137309/article/details/87352796
-### 四、MVC架构
+### MVC架构
 MVC是一个设计模式，它强制性的使应用程序的输入、处理和输出分开。使用MVC应用程序被分成三个核心部件：模型（M）、视图（V）、控制器（C），它们各自处理自己的任务。
 ## 01-ThinkPHP与代码执行漏洞
-### 一、5.0.0-5.0.12
+### 5.0.0-5.0.12
 **影响版本：**5.0.0-5.0.12
 **payload：**
 
@@ -156,7 +156,7 @@ _method=__construct&method=*&filter[]=system&s=dir
       'var_pathinfo'           => 's',
   ```
 
-### 二、5.0.21-5.0.23
+### 5.0.21-5.0.23
 
 影响版本：5.0.21-5.0.23
 
@@ -170,7 +170,7 @@ payload：
 
 代码分析：
 
-### 三、5.0.0-5.0.22、5.1-5.1.30
+### 5.0.0-5.0.22、5.1-5.1.30
 
 **影响版本：**5.0-5.0.22、5.1-5.1.30
 
@@ -334,7 +334,7 @@ invokefunction是什么？
 
 ThinkPHP在历史上爆发出很多的SQL注入漏洞，本部分将详细的对其进行具体分析。
 
-### 一、Builder类parseData方法
+### Builder类parseData方法
 
 影响版本：5.0.13-5.0.15、5.1.0-5.1.5
 
@@ -348,7 +348,7 @@ https://www.jianshu.com/p/18d06277161e
 
 参考 https://github.com/Mochazz/ThinkPHP-Vuln/
 
-### 二、Builder类parseOrder方法
+### Builder类parseOrder方法
 
 影响版本：5.1.16-5.1.22
 
@@ -359,7 +359,7 @@ payload：
 > 代码分析：5.1.22
 > ```
 
-### 三、Mysql类parseArrayData方法
+### Mysql类parseArrayData方法
 
 影响版本：5.1.6-5.1.7
 
@@ -371,7 +371,7 @@ payload：
 
 [https://github.com/Mochazz/ThinkPHP-Vuln/blob/master/ThinkPHP5/ThinkPHP5%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90%E4%B9%8BSQL%E6%B3%A8%E5%85%A52.md](https://github.com/Mochazz/ThinkPHP-Vuln/blob/master/ThinkPHP5/ThinkPHP5漏洞分析之SQL注入2.md)
 
-### 四、Mysql类的parseWhereItem方法
+### Mysql类的parseWhereItem方法
 
 影响版本：ThinkPHP5全版本
 
@@ -385,7 +385,7 @@ payload：
 
 [https://github.com/Mochazz/ThinkPHP-Vuln/blob/master/ThinkPHP5/ThinkPHP5%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90%E4%B9%8BSQL%E6%B3%A8%E5%85%A54.md](https://github.com/Mochazz/ThinkPHP-Vuln/blob/master/ThinkPHP5/ThinkPHP5漏洞分析之SQL注入4.md)
 
-### 五、Mysql类聚合函数相关方法
+### Mysql类聚合函数相关方法
 
 影响版本：5.0.0-5.0.21、5.1.3-5.1.25
 
@@ -407,19 +407,19 @@ https://github.com/Dido1960/thinkphp
 
 https://github.com/Mochazz/ThinkPHP-Vuln
 
-### 一、5.0反序列化
+### 5.0反序列化
 
-### 二、5.1反序列化
+### 5.1反序列化
 
 影响版本：5.1.37
 
-### 三、5.2反序列化
+### 5.2反序列化
 
-### 四、6.0反序列化
+### 6.0反序列化
 
 ## 04-ThinkPHP与文件包含漏洞
 
-### 一、版本5.0.0<=5.0.18
+### 版本5.0.0<=5.0.18
 
 ## 05-基于ThinkPHP程序
 
