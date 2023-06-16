@@ -9,15 +9,16 @@ type: page
 {:toc}
 ## 关于我
 
-* 
+* 渗透测试
+* 安全开发
 
 ## 联系我
 
 * [https://github.com/0e0w](https://github.com/0e0w)
-* [0e0wTeam@gmail.com](0e0wTeam@gmail.com)
 
 ## 经典语录
 
+- 20230531-一笑而过是解脱，深思熟虑是麻烦。[@体验盒子](https://www.uedbox.com/post/68848/)
 - 20221204-被动收入是最能带来自由的东西，这个时代的程序员其实在创造被动收入上有天然优势，然而大部分人都在出卖自由为别人打工。@尤雨溪
 - 20220723-你全力做到最好，可能还不如别人随便搞搞。[@aqniu](https://www.aqniu.com/vendor/86108.html)
 - 20220412-被动学习有时候往往也很有效。@0e0w
